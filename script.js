@@ -53,7 +53,7 @@ gsap.from("#page2 h1",{
   scrollTrigger:{
     trigger: "#page2 h1",
     scroller: "#main",
-    markers: true,
+    // markers: true,
     start: "top 60%",
     end: "top 40%",
     scrub: 3
@@ -69,7 +69,7 @@ gsap.from("#page3 h1", {
     end: "top -20%",
     scrub: 4,
     pin: true,
-    markers: true
+    // markers: true
   }
 })
 
@@ -82,7 +82,7 @@ gsap.from("#page3 h2", {
     end: "top -20%",
     scrub: 4,
     pin: true,
-    markers: true
+    // markers: true
   }
 })
 
@@ -150,7 +150,7 @@ var page3TL = gsap.timeline({
     trigger: "#page3",
     scroller: "#main",
     scrub: 2,
-    markers: true,
+    // markers: true,
     start: "top 0",
     end: "top -100%",
     pin: true
@@ -192,7 +192,7 @@ var page5TL = gsap.timeline({
   scrollTrigger:{
     trigger: "#page5",
     scroller: "#main",
-    markers: true,
+    // markers: true,
     scrub: 2,
     pin: true
   }
@@ -213,7 +213,7 @@ gsap.from("#box1 img",{
   scrollTrigger:{
     trigger:"#page4",
     scroller:"#main",
-    markers: true,
+    // markers: true,
     start: "top 160%",
     end: "top 159%",
     scrub: 2
